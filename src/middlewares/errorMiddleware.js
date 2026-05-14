@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // Middleware para captura de erros em toda a aplicação
 function errorMiddleware(err, req, res) {
   console.error('[ERRO]:', err.stack);
